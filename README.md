@@ -6,7 +6,7 @@ java swing 注解框架，方便组件的寻找和事件的注入，也用于UI�
 使用`new UIQuick().inject(this)`对当前对象进行注解初始化，注意：一定要在组件初始化完成之后再使用此方法
 
 ##### 2.组件注解
-使用`@UIAnnotationWidget("{name}")`对字段进行注解，'{name}'填写的是组件`Component.setName('{name}')`的值
+使用`@UIAnnotationWidget("{name}")`对字段进行注解，`{name}`填写的是组件`Component.setName('{name}')`的值
 
 ##### 3.事件注解
 使用`@UIAnnotationWidgetEvent(widget="{name}",event={UIEventConstant.xxx})`对事件进行注解，用于快速实现`点击事件监听、鼠标事件监听等`，`widget`填写的是组件名`setName`的值，event填写的是需要监听的事件，以下为以实现的事件<br>
