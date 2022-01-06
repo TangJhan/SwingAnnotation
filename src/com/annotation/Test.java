@@ -10,9 +10,7 @@ public class Test extends JFrame{
 	
 	public Test() {
 		initView();
-		
 		new UIQuick().inject(this);
-				
 		bt1.setText("button");
 	}
 	
@@ -31,10 +29,8 @@ public class Test extends JFrame{
 		this.setVisible(true);
 	}
 
-
 	public static void main(String[] args) {
 		new Test();
-
 	}
 	
 }

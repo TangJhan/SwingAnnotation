@@ -1,16 +1,5 @@
 package com.annotation;
 
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseWheelEvent;
-import java.awt.event.MouseWheelListener;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
-
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 
 public class UIEventConstant {
 	
@@ -58,5 +47,42 @@ public class UIEventConstant {
 	public static final String EVENT_FOCUS_GAINED = "addFocusListener#java.awt.event.FocusListener#focusGained";
 	public static final String EVENT_FOCUS_ALL = "addFocusListener#java.awt.event.FocusListener#ALL_EVENT_METHOD";
 	
+	//addInputMethodListener //
+	public static final String EVENT_INPUT_TEXT_CHANGED = "addInputMethodListener#java.awt.event.InputMethodListener#inputMethodTextChanged";
+	public static final String EVENT_INPUT_POSITION_CHANGED = "addInputMethodListener#java.awt.event.InputMethodListener#caretPositionChanged";
+	public static final String EVENT_INPUT_ALL = "addInputMethodListener#java.awt.event.InputMethodListener#ALL_EVENT_METHOD";
+		
+	//addCaretListener  //
+	public static final String EVENT_CARET_UPDATE = "addCaretListener#javax.swing.event.CaretListener#caretUpdate";
+
+	//addItemListener //
+	public static final String EVENT_ITEM_STATE_CHANGED = "addItemListener#java.awt.event.ItemListener#itemStateChanged";
+	
+	//addAncestorListener //
+	public static final String EVENT_ANCESTOR_REMOVED = "addAncestorListener#javax.swing.event.AncestorListener#ancestorRemoved";
+	public static final String EVENT_ANCESTOR_MOVED = "addAncestorListener#javax.swing.event.AncestorListener#ancestorMoved";
+	public static final String EVENT_ANCESTOR_ADDED = "addAncestorListener#javax.swing.event.AncestorListener#ancestorAdded";
+	public static final String EVENT_ANCESTOR_ALL = "addAncestorListener#javax.swing.event.AncestorListener#ALL_EVENT_METHOD";
+
+	
+	//addComponentListener //
+	public static final String EVENT_COMPONENT_SHOWN = "addComponentListener#java.awt.event.ComponentListener#componentShown";
+	public static final String EVENT_COMPONENT_RESIZED = "addComponentListener#java.awt.event.ComponentListener#componentResized";
+	public static final String EVENT_COMPONENT_HIDDEN = "addComponentListener#java.awt.event.ComponentListener#componentHidden";
+	public static final String EVENT_COMPONENT_MOVED = "addComponentListener#java.awt.event.ComponentListener#componentMoved";
+	public static final String EVENT_COMPONENT_ALL = "addComponentListener#java.awt.event.ComponentListener#ALL_EVENT_METHOD";
+	
+	//addContainerListener //
+	public static final String EVENT_CONTAINER_COMPONENT_REMOVED = "addContainerListener#java.awt.event.ContainerListener#componentRemoved";
+	public static final String EVENT_CONTAINER_COMPONENT_ADDED = "addContainerListener#java.awt.event.ContainerListener#componentAdded";
+	public static final String EVENT_CONTAINER_ALL = "addContainerListener#java.awt.event.ContainerListener#ALL_EVENT_METHOD";
+	
+	//addHierarchyListener //
+	public static final String EVENT_HIERARCHY_CHANGED = "addHierarchyListener#java.awt.event.HierarchyListener#hierarchyChanged";
+	
+	//addHierarchyBoundsListener //
+	public static final String EVENT_HIERARCHY_BOUNDS_ANCESTOR_RESIZED = "addHierarchyBoundsListener#java.awt.event.HierarchyBoundsListener#ancestorResized";
+	public static final String EVENT_HIERARCHY_BOUNDS_ANCESTOR_MOVED = "addHierarchyBoundsListener#java.awt.event.HierarchyBoundsListener#ancestorMoved";
+	public static final String EVENT_HIERARCHY_BOUNDS_ALL = "addHierarchyBoundsListener#java.awt.event.HierarchyBoundsListener#ALL_EVENT_METHOD";
 	
 }
